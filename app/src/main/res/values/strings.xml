@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">x PROMe</string>
+    <string name="Texts">Add Comments</string>
+    <string name="latitude_Infor">Latitude is:</string>
+    <string name="longitude_Infor">Longitude is:</string>
+    <string name="enter_image_name">enter image name</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="feedbk">Customer Feedback</string>
+    <string name="devicess">Installation</string>
+    <string name="tickets">Tickets</string>
+    <string name="homm">Home</string>
+    <string name="board2">Dashboard</string>
+    <string name="signin">Tickets</string>
+    <string name="uplds">Uploads</string>
+    <string name="signn">Registration</string>
+    <string name="inbox">Inbox</string>
+    <string name="settings">Settings</string>
+    <string name="title_home">Home Screen</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="home_slogan">FEELS GOOD TO BE HOME</string>
+    <string name="ticket_number">Ticket Number</string>
+
+</resources>

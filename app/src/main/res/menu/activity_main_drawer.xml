@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/group_menu">
+
+        <item android:id="@+id/board"
+            android:title=" Dashboard"
+            android:icon="@drawable/h_dashboard_icon"/>
+        <item
+            android:id="@+id/ticket"
+            android:title=" Tickets"
+            android:icon="@drawable/h_assignment"
+            />
+        <item android:id="@+id/instals"
+            android:title="Installations"
+            android:icon="@drawable/h_router_icon"/>
+        <item android:id="@+id/customer_feedback"
+            android:title="Feedback"
+            android:icon="@drawable/h_feedback"/>
+
+        <item android:id="@+id/log_out"
+            android:icon="@drawable/h_chat_black_24dp"
+            android:title="Log Out" />
+
+
+    </group>
+
+</menu>

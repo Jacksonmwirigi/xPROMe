@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    >
+<!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView8"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:layout_margin="1dp"-->
+
+        <!--android:paddingStart="10dp"-->
+
+        <!--android:background="@drawable/disps1"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+         <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView12"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:background="@drawable/ticket3"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+         <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView11"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:layout_margin="1dp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/clt1" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/textView32"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:background="@drawable/phn"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+         <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView34"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textColor="#000"-->
+
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal|bold"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="Residence:" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView15"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:text="Request Type:" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView17"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:text="Assignee" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView19"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:text="Assignment Date"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView21"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Assigner:" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView23"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="Last Update:" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView30"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Scheduled Time:" />-->
+
+
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView36"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="16sp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Scheduled Date:" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView25"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Status:" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView28"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingEnd="10dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:paddingStart="10dp"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="Comments:" />-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:layout_height="5dp"/>-->
+<!--</LinearLayout>-->
+<!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/dispatch_id"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textSize="16sp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="dispatch" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/ticket_number"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textSize="16sp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="ticket number" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/client_tname"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textSize="16sp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="clt name" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/client_phone"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="client phone" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/client_residence"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:textSize="16sp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="residence" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/request_type"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textSize="16sp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="req type" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/asignee"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="asignee" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/asignment_date"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:text="date assignment" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/asigner"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:textSize="16sp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="assigner" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/last_update"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textSize="16sp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:text="last update" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/scheduled_time"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:textSize="16sp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="scah time" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/scheduled_date"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textSize="16sp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="scch date" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/ticket_status"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="status" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tickets_comment"-->
+        <!--android:paddingStart="20dp"-->
+        <!--android:layout_margin="1dp"-->
+
+        <!--android:textStyle="normal"-->
+        <!--android:textSize="16sp"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="comments" />-->
+<!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--android:layout_height="5dp">-->
+<!--</View>-->
+<!--</LinearLayout>-->
+</LinearLayout>

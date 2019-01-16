@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#028E3A </color>
+    <color name="colorPrimaryDark">#009A3E</color>
+    <color name="colorAccent">#fa2424</color>
+    <color name="red">#f50c0c</color>
+    <color name="colorMpya">#478e0c</color>
+    <color name="blue">#040723</color>
+    <color name="textColor">#4a2020</color>
+    <color name="navBarcolor">#93caa0</color>
+    <color name="toobarcolor">#009A3E </color>
+    <color name="backColor">#C0C0C0</color>
+    <color name="greyyetu">#948b8b</color>
+    <color name="rangidash">#51de7b</color>
+    <color name="green">#51de7b </color>
+    <color name="regColor">#1a1b1a</color>
+ <!--cardView colors -->
+    <color name="colorpry">#e74c3c</color>
+    <color name="colorPrydark">#ec7063</color>
+    <color name="colorAcct">#f93283</color>
+    <color name="purple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="greencard">#00bfa5</color>
+    <color name="darkblue">#2980b9</color>
+    <color name="darkpurple">#a569bd</color>
+    <color name="pinky">#fe104d</color>
+    <color name="lightgray">#808080</color>
+</resources>

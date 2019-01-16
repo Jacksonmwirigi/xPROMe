@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.jackoyee.xprome.InstallationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="@string/ticket_number"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/blue"
+        android:id="@+id/ticket_no"
+        android:text=""
+        />
+
+    <ImageView
+        android:id="@+id/capturedImage"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-117dp"
+        android:layout_marginTop="149dp"
+        android:layout_toStartOf="@+id/sendBtn"
+        android:src="@drawable/piccustom" />
+    <EditText
+        android:id="@+id/coment"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/capturedImage"
+        android:layout_marginBottom="130dp"
+        android:hint="@string/Texts"
+        android:inputType="text"
+        android:textColorHint="@color/textColor"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/coment"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="onClickAddUploadData"
+        android:text="Take Action"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/lati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/capturedImage"
+        android:layout_marginEnd="65dp"
+        android:text=" "
+        android:textColor="@color/red"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/client_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:hint="Client Name"
+        android:text=""
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/longit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lati"
+        android:layout_alignTop="@+id/textView7"
+        android:text=" "
+        android:textColor="@color/red"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/residential"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:hint="Residence "
+        android:text=""
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fo_name"
+        android:layout_alignTop="@+id/capturedImage"
+        android:text="Latitude:"
+        android:textColor="#000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="187dp"
+        android:text="Longitude:"
+        android:textColor="#000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/clientNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:hint="mobile No."
+        android:text=""
+        android:textColorHint="#000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/fo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/coment"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="232dp"
+        android:hint="Technician Name"
+        android:text=""
+        android:textColorHint="#000"
+        android:textStyle="normal" />
+
+    <RadioGroup
+        android:id="@+id/status_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/capturedImage"
+        android:layout_marginBottom="212dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Connection Status"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/pending_rd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pending"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/completed_rd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/capturedImage"
+        android:layout_marginTop="41dp"
+        android:text="Residence:"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/capturedImage"
+        android:layout_alignTop="@+id/client_name"
+        android:text="Client Name:"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/capturedImage"
+        android:layout_marginTop="111dp"
+        android:text="Mobile Number:"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/capturedImage"
+        android:layout_alignTop="@+id/fo_name"
+        android:text="Technician Name" />
+</RelativeLayout>
